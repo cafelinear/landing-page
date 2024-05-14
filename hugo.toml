@@ -1,0 +1,39 @@
+baseURL = 'https://www.cafelinear.com/'
+languageCode = 'en-us'
+title = 'Café Linear Tech & Dev'
+theme = 'colordrop'
+
+[menu]
+  [[menu.footer]]
+  identifier = "github"
+  name = "github"
+  url = "https://github.com/cafelinear/"
+  weight = 1
+  [[menu.footer]]
+  identifier = "twitter"
+  name = "twitter"
+  url = "https://twitter.com/cafelinear"
+  weight = 2
+  [[menu.footer]]
+  identifier = "linkedin"
+  name = "linkedin"
+  url = "https://www.linkedin.com/company/cafelinear/"
+  weight = 3
+  [[menu.footer]]
+  identifier = "curriculum"
+  name = "curriculum"
+  url = "https://www.linkedin.com/in/douglasdrumond"
+  weight = 4
+  [[menu.footer]]
+  identifier = "email"
+  name = "email"
+  url = "mailto:contact@cafelinear.com"
+  weight = 5
+
+[params]
+themeColor = "#400000"
+themeInverseColor = "#ffffff"
+description = "Software development. Data science. Artificial Intelligence."
+siteLogo = "logo.png"
+custom_css = ["css/custom.css"]
+
